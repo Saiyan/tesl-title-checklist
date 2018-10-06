@@ -12,7 +12,7 @@ function buildTable() {
         htmlMainTableBody += '<tr>';
         htmlMainTableBody += '<td> <input type="checkbox" name="' + title.hash + '" /></td>';
         htmlMainTableBody += '<td>' + title.name + '</td>';
-        htmlMainTableBody += '<td>' + title.color + '</td>';
+        htmlMainTableBody += '<td data-color="'+ title.color + '"><div class="color"></div></td>';
         htmlMainTableBody += '<td>' + title.desc + '</td>';
         htmlMainTableBody += '</tr>';
     }

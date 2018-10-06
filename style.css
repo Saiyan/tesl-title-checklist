@@ -17,6 +17,21 @@ th {
     font-weight: bold;
 }
 
+div.color{
+    width: 12px;
+    height: 12px;
+}
+
+[data-color="Brown"] div{
+    background-color: #987654;
+}
+[data-color="Blue"] div{
+    background-color: dodgerblue;
+}
+[data-color="Purple"] div{
+    background-color: purple;
+}
+
 .main-buttons,
 .main-table{
     width: 100%;
