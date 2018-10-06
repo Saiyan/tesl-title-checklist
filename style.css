@@ -1,0 +1,41 @@
+
+
+td {
+    text-align: center;
+    border-bottom: 1px solid #111;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 10px 20px;
+}
+th {
+    font-weight: bold;
+}
+
+.main-buttons,
+.main-table{
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.main-table tr:hover td{
+    background-color: #f2f2f2;
+}
+
+[data-checked="true"] td{
+    background-color: lightgreen;
+}
+
+.main-table tr[data-checked="true"]:hover  td{
+    background-color: #80ee80;
+}
+
+.hide_achieved tr[data-checked="true"]{
+    display: none;
+}
+.hide_unfinished tr:not([data-checked="true"]){
+    display: none;
+}
