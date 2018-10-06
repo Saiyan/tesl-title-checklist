@@ -1,4 +1,7 @@
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 td {
     text-align: center;
@@ -16,9 +19,13 @@ th {
 
 .main-buttons,
 .main-table{
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
     border-collapse: collapse;
+}
+.main-buttons{
+    padding: 20px;
 }
 
 .main-table tr:hover td{
